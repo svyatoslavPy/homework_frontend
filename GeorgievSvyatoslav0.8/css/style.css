@@ -1,9 +1,11 @@
 /* 0,0,1 */
+/* Ставим шрифт(google font(Opensan, sans-serif)*/
 .header {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* 0,1,0 */
+/* Шрифт: 0, для того чтобы убрать отступы, дальше ставим ширину 390px, Фон: red*/
 .menu {
   font-size: 0;
   width: 390px;
@@ -11,6 +13,7 @@
 }
 
 /* 0,0,1 */
+/* Задаём позицию относительно этого блока, дальше ставим в inline-block(в строку), шрифт: 1rem и отступы: 10px */
 .menu__item {
   position: relative;
   display: inline-block;
@@ -19,11 +22,13 @@
 }
 
 /* 0,3,0 */
+/* Ставим hover на элемент menu__item, dropdawn__menu блочную модель чтобы при наведение блок с меню выпадал */
 .menu__item:hover .dropdawn__menu {
   display: block;
 }
 
 /* 0,1,0 */
+/* Задаём абсолютное позиционирование чтобы стали под menu__item, фон: red, display: none чтобы спрятолось под блоком, центрировать элементы по центру, шрифт: 1.1rem, list-style: none, чтобы убрались все точки, внутренние отступы: 9px, ширина: 120px */
 .dropdawn__menu {
   position: absolute;
   background: red;
@@ -36,12 +41,14 @@
 }
 
 /* 0,0,1 */
+/* Задаём отступ вниз для того чтобы были проблемы между элементами */
 .dropdawn-menu__item {
   margin-top: 10%;
 }
 
 /* 0,0,1 */
 .menu__link {
+  /* Цвет: white, убираем подчёркивание с помощью text-decoration:none*/
   color: white;
   text-decoration: none;
 }
