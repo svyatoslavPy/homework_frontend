@@ -1,0 +1,37 @@
+.menu {
+  width: 420px;
+  padding: 5px;
+  background: red;
+  font-size: 0;
+}
+
+.menu__item {
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 5px;
+}
+
+.menu__item:hover .dropdawn__menu {
+  display: block;
+}
+
+.dropdawn__menu {
+  position: absolute;
+  background: red;
+  display: none;
+  text-align: center;
+  font-size: 17px;
+  list-style: none;
+  padding: 9px;
+  width: 100px;
+}
+
+.dropdawn-menu__item {
+  margin-top: 10px;
+}
+
+.menu__link {
+  color: white;
+  text-decoration: none;
+}
