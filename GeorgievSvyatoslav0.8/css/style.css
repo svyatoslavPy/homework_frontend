@@ -1,13 +1,16 @@
+/* 0,0,1 */
 .header {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* 0,1,0 */
 .menu {
   font-size: 0;
   width: 390px;
   background: red;
 }
 
+/* 0,0,1 */
 .menu__item {
   position: relative;
   display: inline-block;
@@ -15,10 +18,12 @@
   margin: 10px;
 }
 
+/* 0,3,0 */
 .menu__item:hover .dropdawn__menu {
   display: block;
 }
 
+/* 0,1,0 */
 .dropdawn__menu {
   position: absolute;
   background: red;
@@ -30,10 +35,12 @@
   width: 120px;
 }
 
+/* 0,0,1 */
 .dropdawn-menu__item {
   margin-top: 10%;
 }
 
+/* 0,0,1 */
 .menu__link {
   color: white;
   text-decoration: none;
