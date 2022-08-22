@@ -1,6 +1,5 @@
 .menu {
   width: 420px;
-  padding: 5px;
   background: red;
   font-size: 0;
 }
@@ -9,7 +8,7 @@
   position: relative;
   display: inline-block;
   font-size: 1rem;
-  margin: 5px;
+  margin: 12px;
 }
 
 .menu__item:hover .dropdawn__menu {
