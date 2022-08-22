@@ -1,14 +1,18 @@
+.header {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .menu {
-  width: 400px;
-  background: red;
   font-size: 0;
+  width: 390px;
+  background: red;
 }
 
 .menu__item {
   position: relative;
   display: inline-block;
   font-size: 1rem;
-  margin: 15px;
+  margin: 10px;
 }
 
 .menu__item:hover .dropdawn__menu {
@@ -20,14 +24,14 @@
   background: red;
   display: none;
   text-align: center;
-  font-size: 17px;
+  font-size: 1.1rem;
   list-style: none;
   padding: 9px;
-  width: 100px;
+  width: 120px;
 }
 
 .dropdawn-menu__item {
-  margin-top: 10px;
+  margin-top: 10%;
 }
 
 .menu__link {
