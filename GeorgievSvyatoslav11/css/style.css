@@ -1,3 +1,87 @@
 @import "./reset.css"; /* include reset.css */
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"); /* font-family: 'Roboto', sans-serif; */
+
+
+.container {
+    font-family: "Roboto"; /* стандартный шрифт контейнеру для того чтобы все дочерние брали*/
+    font-size: 0.8rem; /* стандартный шрифт для всех */
+}
+
+.header {
+    background: #eeeff1; /* ставим фон: white */
+}
+
+.nav__wrapper {
+    padding: 40px 280px; /* родителю навигации отступы чтобы все дочерние стояли правильно и нужным отступам*/
+}
+
+.nav__items {
+    display: flex; /* display: flex */
+    column-gap: 40px; /* расстояние между собой: 40px */
+}
+
+.text__special {
+    text-transform: uppercase; /* Переводим элементы в вверхний регистр */
+}
+
+.text--primary {
+    color: #ffffff; /* Цвет ставим white для наших элементов*/
+    font-family: "Roboto"; /* Шрифт roboto */
+}
+
+.nav__text,
+.nav__text--link {
+    color: #000000; /* color #000000 */
+    line-height: 26px; /* межстрочный интервал */
+    letter-spacing: 0.1em; /* межстрочный интервал между каждым элементом */
+    font-weight: 400; /* вес шрифта */
+    transition: 500ms; /* плавность 500ms */
+    text-decoration: none; /* убрать все подчеркивания */
+}
+
+.nav__text--link:hover {
+    color: #696666; /* Цвет #696666*/
+    transition: 500ms; /* плавность при наведение 500ms */
+}
+
+.header__content {
+    padding: 60px 0px 70px 0px; /* отступы всему header контенту */
+}
+
+.header__title {
+    font-weight: 500; /* Вес шрифта 500 */
+    font-size: 2rem; /* Размер шрифта 2rem */
+    line-height: 79px; /* межстрочный интервал */
+    color: #000000; /* ставим цвет для элементов */
+}
+
+.header__subtitle {
+    padding: 20px 0px 40px 0px; /* отступы для всех элементов внутри */
+    width: 40%; /* Ширина 40% */
+    font-size: 0.9rem; /* Размер шрифта 0.9 rem */
+    line-height: 26px; /* межстрочный интервал */
+    color: #727272; /* color #727272 */
+}
+
+.header__btn {
+    width: 140px; /* Ширина для кнопки 140px */
+    transition: 1s; /* Плавность при наведение на блок */
+    padding: 10px 10px; /* Внутренние отступы */
+}
+
+.header__btn:hover { /* При наведение(hover) */
+    background-color: #2f3f52;  /* Смена на bg-color: #2f3f52*/
+    cursor: pointer; /* Смена курсора на pointer */
+    transition: 1s; /* Плавность 1s */
+}
+
+.header__btn--primary {
+    display: flex; /* Display: flex */
+    justify-content: center; /* Ставим все дочерние элементу по центру */
+    font-weight: 400; /* Вес шрифта 400 */
+    line-height: 26px; /* Межстрочный интервал 26px */
+    font-size: 0.7rem; /* Размер шрифта: 0.7rem */
+    letter-spacing: 0.1em; /* Межстрочный интервал между каждым элементом */
+    color: #ffffff; /* Color : white */
+}
