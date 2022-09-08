@@ -146,3 +146,21 @@
     font-size: 1rem; /* Размер шрифта 1rem */
     line-height: 26px; /* Межстрочный интервал */
 }
+
+.section__video {
+    position: relative; /* Позиционировать относительно родителя */
+}
+
+.picture {
+    width: 700px; /* Ширина 700px */
+}
+
+.section__item {
+    position: absolute; /* Позиционировать абсолютно относительно нашего родителя */
+    top: 160px; /* Вниз на 160px */
+    left: 315px; /* Вправо на 315px */
+}
+
+.picture-item {
+    width: 70px; /* Ширина 70px */
+}
