@@ -164,3 +164,29 @@
 .picture-item {
     width: 70px; /* Ширина 70px */
 }
+
+.footer {
+    margin-top: 100px; /* Внешний отступ вниз на 100px */
+    padding: 40px; /* Внутренние отступы 40px */
+}
+
+.footer__inner {
+    padding: 0px 360px; /* Внутренний отступ вправо на 360px */
+}
+
+.footer__title {
+    font-weight: 500; /* Вес шрифта 500 */
+    font-size: 1.3125rem; /* Размер шрифта 1.3125rem */
+    line-height: 25px; /* межстрочный интервал */
+}
+
+.footer__subtitle {
+    padding-top: 20px; /* Внутренний отступ вниз на 20px */
+    font-weight: 400; /* Вес шрифта 400 */
+    font-size: 0,8125rem; /* Размер 0,8125rem */
+    line-height: 21px; /* межстрочный интервал */
+}
+
+.element--special {
+    background: #34547a; /* bg-фон : #34547a */
+}
