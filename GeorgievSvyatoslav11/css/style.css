@@ -114,3 +114,35 @@
     color: #727272; /* color : #727272 */
 }
 
+.main__wrapper {
+    padding: 110px; /* Внутренние отступы родителю всем сторонам */
+}
+
+.main__items {
+    display: flex; /* Ставим в строку(flex) */
+    justify-content: center; /* Ставим все дочерние элементу по центру */
+    align-items: center; /* Ставим по центру */
+    column-gap: 35px; /* расстояние между собой: 35px */
+}
+
+.icon {
+    display: flex; /* Ставим в строку(flex) */
+}
+
+.icon__items {
+    display: flex; /* Ставим в строку(flex) */
+    flex-direction: column; /* В колонку ( culumn ) */
+    padding-left: 12px; /* Внутренний отступ вправо на 12px */
+}
+
+.icons__title {
+    font-weight: 500; /* Вес шрифта 500 */
+    font-size: 1.3125rem; /* Размер шрифта : 1.3125rem */
+    line-height: 25px; /* Межстрочный интервал: 25px */
+}
+
+.icons__text {
+    font-weight: 400; /* Вес шрифта 400*/
+    font-size: 1rem; /* Размер шрифта 1rem */
+    line-height: 26px; /* Межстрочный интервал */
+}
