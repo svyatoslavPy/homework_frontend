@@ -85,3 +85,32 @@
     letter-spacing: 0.1em; /* Межстрочный интервал между каждым элементом */
     color: #ffffff; /* Color : white */
 }
+
+
+.section__wrapper {
+    padding: 112px 0px 0px 0px; /* Отступы всему родителю ( wrapper ) */
+}
+
+.section__items {
+    display: flex; /* Ставим в строку(flex) */
+    flex-direction: column; /* В колонку ( culumn ) */
+    align-items: center; /* Ставим по центру */
+}
+
+.section__title {
+    font-weight: 500; /* Вес шрифта 500 */
+    font-size: 1.5rem; /* Размер шрифта : 1.5rem */
+    line-height: 38px; /* Межстрочный интервал 38px */
+    color: #000000; /* Цвет : #000000 */
+}
+
+.section__subtitle {
+    width: 540px; /* Ширина 540px */
+    font-weight: 400; /* Вес шрифта 400 */
+    font-size: 1rem; /* Размер шрифта 1rem */
+    padding: 50px 0px 100px 0px; /* внутренние отступы для всех элементов subtitle */
+    line-height: 26px; /* Межстрочный интервал 26px */
+    text-align: center; /* По центру расположить */
+    color: #727272; /* color : #727272 */
+}
+
